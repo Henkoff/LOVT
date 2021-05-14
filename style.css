@@ -119,9 +119,21 @@ main section.projects .container article .info .price{
     font-size: 32px;
     margin: 0px;
 }
-main section.projects .container article .info .tag{
+main section.projects .container article .info .tag-new{
     padding: 5px 10px;
     background-color: gray;
+    color: #fff;
+    border-radius: 25px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+main section.projects .container article .info .tag-sale{
+    padding: 5px 10px;
+    background-color: orange;
     color: #fff;
     border-radius: 25px;
     margin: 0;
