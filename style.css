@@ -119,7 +119,7 @@ main section.projects .container article .info .price{
     font-size: 32px;
     margin: 0px;
 }
-main section.projects .container article .info .tag-new{
+main section.projects .container article .info .tag{
     padding: 5px 10px;
     background-color: gray;
     color: #fff;
@@ -132,13 +132,9 @@ main section.projects .container article .info .tag-new{
 }
 
 main section.projects .container article .info .tag-sale{
-    padding: 5px 10px;
+
     background-color: orange;
-    color: #fff;
-    border-radius: 25px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
+}
+main section.projects .container article .info .tag-new{
+    background-color: gray;    
 }
