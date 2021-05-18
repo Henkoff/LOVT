@@ -91,6 +91,7 @@ main section.projects .container{
 
 }
 
+
 main section.projects .container article{
     width: 450px;
     max-width: 100%;
@@ -137,4 +138,84 @@ main section.projects .container article .info .tag-sale{
 }
 main section.projects .container article .info .tag-new{
     background-color: gray;    
+}
+
+main section.styles article {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+/* main section.styles h2{
+   
+    color: #888888;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px 20px 40px;
+    */
+    
+main section.styles article h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 400;
+}
+
+footer{
+    background-color: #333333;
+    color: #ffff;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer a:any-link{
+    color: white;
+}
+footer iframe{
+    width: 400px;
+    height: 350px;
+    max-width: 100%;
+
+}
+@media (max-width: 900px){
+    .container{
+        padding: 0 40px;
+    }
+    main section.projects .container{
+        justify-content: center;
+       flex-wrap: wrap; /* quebra linha */
+
+
+    }
+    main section.projects .container article{
+
+        margin: 20px 0 ; /* 20px para cima e para baixo e 0 para as laterais */
+
+    }
+
+}
+@media/* breakpoint*/(max-width: 740px){ 
+
+    footer{
+        flex-wrap: wrap;/* quebra de linha*/
+        flex-direction: column;/*forca quebra de linha/vai ficar um embaixo do outro*/
+        justify-content: center;/*vira vertical/normal é horizontal*/
+        align-items: center;/* vira horizontal/normal é vertical*/
+        
+    }
+
 }
