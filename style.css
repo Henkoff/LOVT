@@ -173,6 +173,41 @@ main section.styles article h3 {
     font-weight: 400;
 }
 
+
+section.contato h2{
+    text-align: center;
+    font-size: 40px;
+
+}
+section.contato form{
+    width: 500px;
+    max-width: 100%;
+    margin: 40px auto;/*auto para laterais*/
+
+}
+section.contato form input,
+section.contato form textarea{
+    width: 100%;
+    padding: 5px;
+    resize: none;/*evitar crescimento da caixa de mensagem*/
+}
+section.contato form button{
+    width: 100%;
+    padding: 5px;/*para dar um espaço e centralizar o "enviar"*/
+    font-size: 20px;
+    background-color: #dc9730;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Roupa Sans', sans-serif;
+}
+section.contato form button:hover{
+    background-color: #51d275;/* altera a cor do botão ao passar com o mouse*/
+}
+
+
+
 footer{
     background-color: #333333;
     color: #ffff;
