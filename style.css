@@ -208,7 +208,7 @@ footer iframe{
     }
 
 }
-@media/* breakpoint*/(max-width: 740px){ 
+@media/* breakpoint*/(max-width: 740px){ /*responsividade*/
 
     footer{
         flex-wrap: wrap;/* quebra de linha*/
