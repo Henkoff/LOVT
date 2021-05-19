@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Enviado</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+                
+            <div class="logo">
+                <h1>LOVT</h1>
+                <h2>You Love,<br>
+                your Loft!</h2>
+            </div>
+            <button class="menu-toggle">☰</button>
+            
+        </div>
+        </header>
+       
+
+        <main class="main-form">
+            <div class="container">
+    
+                <h1>Quero um loft!</h1>
+                <form action="form_interesse.html">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Jane Doe">
+    
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+    
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone">
+                    <fieldset>
+                        <legend>Contrato</legend>
+    
+                        <input type="checkbox" name="contrato" id="contrato_aluguel" value="Aluguel">
+                        <label for="contrato_aluguel">Aluguel</label>
+    
+                        <input type="checkbox" name="contrato" id="contrato_compra" value="Compra">
+                        <label for="contrato_compra">Compra</label>
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend>Pet Friendly</legend>
+    
+                        <input type="radio" name="petfriendly" id="petfriendly_sim" value="sim">
+                        <label for="petfriendly_sim">Sim</label>
+    
+                        <input type="radio" name="petfriendly" id="petfriendly_nao" value="não">
+                        <label for="petfriendly_nao">Não</label>
+                    </fieldset>
+                    <label for="regiao">Região</label>
+                    <select name="regiao" id="regiao">
+                        <option value="centro">Centro</option>
+                        <option value="norte">Norte</option>
+                        <option value="sul">Sul</option>
+                        <option value="leste">Leste</option>
+                        <option value="oeste">Oeste</option>
+                    </select>
+    
+                    <label for="observacoes">Observações</label>
+                    <textarea name="observacoes" id="observacoes"></textarea>
+    
+                    <button type="submit" class="btn-primary">enviar</button>
+                </form>
+            </div>
+        </main>
+
+
+
+        <footer>
+
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1736539202093!2d-46.47922418502215!3d-23.56220588468248!2m3!1f0!2f0!3f0!3m2!1i
+                1024!2i768!4f13.1!3m3!1m2!1s0x94ce66fd76b90b33%3A0xd1392e7c72a8994e!2sR.%20Ant%C3%B4nio%20Velho%20Tinoco%20-%20Cidade%20L%C3%ADder%2C%20S%C3%A3o%20Pau
+                lo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1621296214285!5m2!1spt-BR!2sbr" 
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="informacoes">
+               <p> LOVT - You love, your loft! </p> 
+
+               <p> Rua Antonio Velho Tinoco,<br>
+                São Paulo, SP 08280120 - BR</p>
+                
+                <p> <a href="tel:+5511970861889">+1 (973) 854-555-548</a>
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=5511970861889&text=Ol%C3%A1%2C%20tenho%20interesse"><br> Clique para antedimento via WhatsApp</a>
+            </p>
+            <p><a target="_blank" href="contact@lovtrealstate.com">contact@lovtrealstate.com</a>
+            </p>
+            </div>
+        </footer>
+</body>
+</html>
